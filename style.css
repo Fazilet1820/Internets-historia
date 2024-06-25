@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #070355;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav ul {
+  background: #0a0474;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#image-container {
+  height: 30vw; /* Viewport genişliğinin %30'u */
+  width: calc(100vh - 50px); /* Tam ekran yüksekliği */
+  overflow: hidden; /* Taşan içeriği gizle */
+  margin: 0 auto; /* Ortalamak için */
+  display: flex;
+}
+#image-container img {
+  width: 100%;
+  object-fit: cover; /* Resmin kapsayıcıyı doldurmasını sağlar */
+  margin-left: 0%;
+  margin-right: 0%;
+}
+section {
+  padding: 2em;
+  margin: 2em 0;
+}
+#introduktion {
+  background-color: rgb(237, 237, 244);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#historia {
+  background-color: rgb(181, 249, 237);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#media {
+  background-color: rgb(252, 178, 239);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#impact {
+  background-color: #b3affd;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#future {
+  background-color: #f9f5af;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#källor {
+  background-color: rgb(202, 202, 207);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#källor a {
+  color: black !important;
+}
+footer {
+  background: #0a0474;
+  color: #fff;
+  text-align: left;
+  padding: 1em 0;
+  padding-left: 1em;
+}
